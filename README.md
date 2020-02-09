@@ -6,6 +6,8 @@
 ## Webgrafía
 
 [Drag and drop](https://www.w3schools.com/html/html5_draganddrop.asp)
+[BEM](http://getbem.com/introduction/)
+[Google Fonts, Roboto](https://fonts.google.com/specimen/Roboto)
 
 ## Guía de inicio rápido
 
