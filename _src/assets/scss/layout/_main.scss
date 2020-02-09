@@ -1,0 +1,76 @@
+.main {
+  border: 1px solid sienna;
+  background: #ffffff;
+  /* height: 70rem; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__container {
+    border: 2px solid #f6f9fe;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 19.6%;
+    padding: 0 1rem;
+
+    &__text {
+      text-transform: uppercase;
+      font-size: 1.1rem;
+    }
+    &__box {
+      border: 0.1rem solid grey;
+      width: 1.5rem;
+      height: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &__plus {
+      }
+    }
+  }
+  .one,
+  .three,
+  .five {
+    height: 46.1rem;
+  }
+
+  .two,
+  .four {
+    height: 23rem;
+  }
+
+  .six {
+    transform: translate(-9.9rem, -23.1rem);
+    height: 22.7rem;
+  }
+}
+
+.seven {
+  transform: translate(9.9rem, -23.1rem);
+  height: 22.7rem;
+}
+
+.div {
+  border: 2px solid #f6f9fe;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  transform: translateY(-23.4rem);
+}
+
+.eight {
+  width: 50%;
+  height: 17.4rem;
+}
+
+.nine {
+  width: 50%;
+  height: 17.4rem;
+}
