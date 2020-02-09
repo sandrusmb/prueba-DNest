@@ -1,0 +1,53 @@
+.header {
+  /*  border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 13rem;
+  margin: 6.4rem 0;
+
+  &__title {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  &__container {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+
+    &--cliente {
+      /* border: 1px solid orange; */
+      background: #ffffff;
+      width: 45.3rem;
+      height: 5.6rem;
+      display: flex;
+      flex-direction: column;
+      margin: 2rem 1rem;
+
+      &-p {
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 1rem;
+        color: #7b7b7b;
+      }
+      &-h2 {
+        margin: 0;
+        font-size: 2rem;
+        padding: 0 1rem;
+        line-height: 0.5rem;
+      }
+    }
+
+    &--version {
+      background: #ffffff;
+      width: 8rem;
+      height: 5.6rem;
+      display: flex;
+      flex-direction: column;
+      margin: 2rem 0;
+    }
+  }
+}
